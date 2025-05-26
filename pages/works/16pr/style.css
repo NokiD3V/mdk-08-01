@@ -1,0 +1,309 @@
+
+*{
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 1050px;
+    background-image: url('./img/top\ block.png');
+}
+header nav{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+header nav ul{
+    display: flex;
+    margin-left: 445px;
+    gap: 40px;
+}
+header nav ul li{
+
+}
+header nav ul li a{
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5%;
+    font-size: 1.5em;
+}
+header nav ul li a:hover{
+    color: #f1ac11;
+}
+
+.buttons{
+    margin-top: 270px;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons .btn{
+    width: 414px;
+    height: 256px;
+    background: url('./img/bg.png');
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.buttons .btn h2{
+    width: 70%;
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 8%;
+    font-weight: bold;
+    font-style: normal;
+}
+.buttons .fullmenu{
+    text-transform: uppercase;
+    padding: 10px 60px;
+    background-color: #f1ac11;
+    color: #000;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.buttons .fullmenu:hover{
+    background-color: rgba(0,0,0,0);
+    outline: 2px solid #f1ac11;
+    color: #000;
+}
+.buttons .btn-down{
+    margin-top: 80px;
+    background-image: url('./img/Obdélník\ 1.png');
+}
+
+
+.daily-menu{
+    height: 1050px;
+    display: flex;
+    flex-direction: column;
+}
+.daily-menu h2{
+    text-align: center;
+    color: #f1ac11;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top: 80px;
+    font-size: 42px;
+}
+.vegancheck{
+    margin: 40px 500px;
+    font-style: italic;
+    color: #2b2b2b;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+.vegancheck img{
+    margin-right: 20px;
+}
+.daily-menu .items{
+    margin: 40px 500px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+}
+.daily-menu .item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.daily-menu .item img{
+    margin-right: 20px;
+}
+.daily-menu .text{
+    width: 100%;
+}
+.daily-menu .upper li{
+    align-items: baseline; /* Выравниваем текст */
+    display: flex; /* Включаем флексы */
+    margin-bottom: 0.5em; /* Отступ снизу */
+}
+.daily-menu .upper li::before{
+    content: ''; /* Выводим линию */
+    border-bottom: 1px dashed #000; /* Параметры линии */
+    flex-grow: 1; /* Линия занимает всё доступное пространство */
+    order: 2; /* Выводим вторым */
+    margin: 0 5px; /* Расстояние от текста */
+}
+.daily-menu .upper li span{
+    order: 3; /* Выводим третьим */
+}
+.daily-menu #check{
+
+    display: inline-block;
+    padding: 5px 10px;
+    background: url('./img/Obdélník\ 3.png') no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.daily-menu .down{
+    color: #bcbcbc;
+}
+.daily-menu .down .title{
+    font-style: italic;
+}
+.daily-menu {
+    text-transform: uppercase;
+}
+.daily-menu .tomato{    
+    width: 900px;
+    height: 300px;
+    background: url('./img/OH3C7D0.png');
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.daily-menu .tomato .info{
+    margin-left: 500px;
+    padding-right: 120px;
+}
+.daily-menu .tomato .subtitle{
+    font-size: 12px;
+    font-style: italic;
+    color: #f1ac11;
+    margin-bottom: 20px;
+}
+.daily-menu .tomato h3{
+    font-style: italic;
+    font-size: 24px;
+}
+.daily-menu .tomato p{
+    color: #d4d4d4;
+    font-size: 12px;
+    font-style: italic;
+    margin: 20px 0px;
+    text-transform: none;
+}
+.daily-menu .tomato a{
+    padding: 5px;
+    background-color: #f1ac11;
+    text-decoration: none;
+    font-style: italic;
+    color: #000;
+    border-bottom: 1px solid #b47d00;
+}
+.find{
+    height: 490px;
+    width: 100%;
+    background: url('./img/4031.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.find .card{
+    width: 426px;
+    height: 260px;
+    background: url('./img/Obdélník\ 2.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.find .card h3{
+    font-size: 24px;
+    font-style: italic;
+}
+.find .card .info{
+    display: flex;
+    gap: 40px;
+    margin: 30px 0px;
+}
+.find .card .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.find .card .logo p{
+    font-size: 18px;
+    text-transform: none;
+    color: #f1ac11;
+}
+.find .card .text p{
+    font-style: italic;
+    text-transform: none;
+}
+.find .card a{
+    padding: 5px 10px;
+    background-color: #f1ac11;
+    border-bottom: 1px solid #b47d00;
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+}
+footer{
+    height: 274px;
+    background: url('./img/866.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .links{
+    width: 585px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+footer .links .block{
+    display: flex;
+    flex-direction: column;
+}
+footer .links .title{
+    font-size: 22px;
+    color: #fff;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 10%;
+    margin-bottom: 50px;
+}
+footer .links a{
+    font-size: 17px;
+    font-style: italic;
+    text-decoration: none;
+    color: #bbb;
+    text-transform: uppercase;
+}
+footer .signup{
+    width: 585px;
+    height: 162px;
+}
+footer .signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+footer .signup h3{
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 90px;
+    font-size: 20px;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+}
+footer .signup .email{
+    display: flex;
+    gap: 30px;
+}
+footer .signup a{
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: #f1ac11;
+    border-bottom: 1px solid #b47d00;
+    text-decoration: none;
+    color: #000;
+}
+footer .signup input{
+    background-color: rgba(255, 255, 255, 0.4);
+    outline: 0;
+    border: 0;
+    padding: 0 50px 0 10px;
+    color: #fff;
+}

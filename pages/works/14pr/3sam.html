@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cube {
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+            border: 1px solid #000;
+            animation: slide 2s ease-in-out forwards;
+        }
+
+        @keyframes slide {
+            0% {
+                margin-left: 0;
+            }
+
+            100% {
+                margin-left: 300px;
+            }
+        }
+
+        .cube2 {
+            margin-top: 300px;
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+            border: 1px solid #000;
+            animation: size 1.5s ease-in-out forwards;
+            
+        }
+        @keyframes size {
+            0% {
+                width: 200px;
+                height: 200px;
+            }
+
+            100% {
+                width: 400px;
+                height: 400px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="./index.html">Назад</a>
+    <div class="cube"></div>
+    <div class="cube2">
+
+    </div>
+</body>
+
+</html>

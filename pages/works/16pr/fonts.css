@@ -1,0 +1,71 @@
+/* Подключение шрифта Myriad Pro Bold */
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../font/Myriad\ Pro/MYRIADPRO-BOLD.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Подключение шрифта Myriad Pro Bold Condensed */
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('./font/Myriad\ Pro/MYRIADPRO-BOLDCOND.otf') format('opentype');
+    font-weight: bold;
+    font-style: condensed;
+}
+
+/* Подключение шрифта Myriad Pro Bold Italic */
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('./font/Myriad\ Pro/MYRIADPRO-BOLDIT.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Подключение шрифта Myriad Pro Bold Condensed Italic */
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('./font/Myriad\ Pro/MYRIADPRO-BOLDCONDIT.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Подключение шрифта Myriad Pro Condensed */
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('./font/Myriad\ Pro/MYRIADPRO-COND.otf') format('opentype');
+    font-weight: normal;
+    font-style: condensed;
+}
+
+/* Подключение шрифта Myriad Pro Condensed Italic */
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('./font/Myriad\ Pro/MYRIADPRO-CONDIT.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Подключение шрифта Myriad Pro Light */
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('./font/Myriad\ Pro/MyriadPro_Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Подключение шрифта Myriad Pro Regular */
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('./font/Myriad\ Pro/MYRIADPRO_REGULAR.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Подключение шрифта Myriad Pro Semibold */
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('./font/Myriad\ Pro/MYRIADPRO-SEMIBOLD.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
