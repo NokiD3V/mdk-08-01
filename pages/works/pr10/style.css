@@ -1,0 +1,53 @@
+*{
+    font-family: "Roboto Condensed";
+}
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+h1{
+    color: #5B5B5B;
+    text-align: center;
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+.blocks{
+    display: flex;
+    color: #5B5B5B;
+}
+.addons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    gap: 10px 100px;
+    font-weight: 500;
+}
+.addon{
+    width: 180px;
+}
+.addon img{
+    width: 72px;
+    height: 72px;
+}
+.links{
+    margin-top: 110px;
+    margin-left: 165px;
+}
+.links p{
+    font-weight: 700;
+}
+.links a{
+    margin-left: 50px;
+    font-size: 18px;
+    padding: 19px 37px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #F26689;
+    text-transform: uppercase;
+    margin-top: 15px;
+    display: block;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+}

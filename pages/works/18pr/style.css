@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-VariableFont_wdth\,wght.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+body{
+    background: linear-gradient(0deg,rgba(145, 214, 219, 1) 41%, rgba(212, 255, 228, 1) 50%, rgba(173, 243, 255, 1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+main{
+    padding-top: 30px;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 10%;
+    font-size: 3em;
+    margin-left: 100px;
+    width: 400px;
+}
+.blocks{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.block{
+    padding: 10px 20px;
+    font-size: 1.25em;
+    border-bottom: 1px solid #888;
+    font-weight: 300;
+    text-decoration: none;
+    color: #000;
+}
+.block:first-child{
+    border-bottom: 2px solid #0d5966;
+}
+.buys{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+.buy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 30px 60px;
+    height: 160px;
+}
+.buy h3{
+    width: 150px;
+    text-align: center;
+}
+.buy .time{
+    margin-top: 20px;
+}
+.buy .price{
+    margin-top: 10px;
+}
+.buy a{
+    display: inline-block;
+    margin-top: auto;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}

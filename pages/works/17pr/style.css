@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./font/Roboto-VariableFont_wdth\,wght.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+.wrapper{
+    width: 480px;
+}
+header{
+    position: relative; 
+}
+.top{
+    background-color: rgb(61, 168, 255);
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 4px #444;
+    position: relative; 
+}
+.top h1{
+    flex: 1;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.top svg{
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+}
+nav{
+    background-color: #555;
+}
+nav ul{
+    display: grid;
+    justify-content: space-around;
+    list-style: none;
+    grid-template-columns: 160px 160px 160px;
+}
+nav ul li{
+    height: 30px;
+    line-height: 30px;
+}
+nav ul li:hover{
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(87, 178, 252);
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+.user{
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    height: 120px;
+    border-bottom: #eee 1px solid;
+}
+
+.user:last-child{
+    border-bottom: none;
+}
+.user .avatar{
+    display: flex;
+    margin-right: 20px;
+}
+.user .avatar #avatarimg{
+    width: 100px;
+    height: 100px;
+}
+.user .avatar .notify{
+    width: 30px;
+    height: 30px;
+    margin-left: -30px;
+}
+.user .info{
+    flex: 1;
+}
+.user .info h3{
+    font-size: 2em;
+    font-weight: 300;
+}
+.user .info p{
+    color: #555;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.user .friends{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user .friends .num{
+    font-size: 2em;
+    color: #555;
+    font-weight: 500;
+    letter-spacing: -5%;
+}
+.user .friends .subtext{
+    color: #555;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.user.settings{
+    padding: 0;
+    height: 140px;
+}
+.user.settings .friends{
+    margin-left: 40px;
+}
+.tools__devide{
+    margin-left: 40px;
+    display: block;
+    height: 100%;
+    background-color: #222;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tools{
+    flex: 1;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #444;
+    height: 100%;
+}
+.tool{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+.tool p{
+    margin-top: 20px;
+    color: #999;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+footer p{
+    margin-top: 20px;
+    color: #777;
+}

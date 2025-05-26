@@ -1,0 +1,73 @@
+.p1{
+    text-align: center;
+}
+.p2{
+    text-indent: 10%;
+}
+.p3{
+    line-height: 40px;
+}
+.p4{
+    vertical-align: text-top;
+}
+.p5{
+    word-spacing: 2em;
+}
+.p6{
+    letter-spacing: 10px;
+}
+.p7{
+    white-space: nowrap;
+}
+.p8{
+    tab-size: 30;
+    -moz-tab-size: 30;
+}
+.p9{
+    text-transform: capitalize;
+}
+#p10{
+    direction: rtl;
+}
+#p11{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+#p12{
+    text-decoration: line-through;
+}
+#p13:first-letter{
+    color: red;
+    font-size: 24px;
+}
+#p14{
+    quotes: '\00AB' '\00BB' '\201E' '\201C';
+}
+#p15{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p16{
+    font-style: oblique;
+}
+#p17{
+    font-variant: small-caps;
+}
+#p18{
+    font-weight: 900;
+}
+#p19{
+    font-size: 20px;
+}
+#p20{
+    color: #FF33FF;
+}
+#p21{
+    text-decoration: underline;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #FF33FF;
+    font-size: 24px;
+    letter-spacing: 10px;
+}
