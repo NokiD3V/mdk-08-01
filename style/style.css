@@ -1,0 +1,66 @@
+.prew{
+    width: 200px;
+    height: 100px;
+}
+.new1, .new2, .new3{
+    background: url("../img/no-image2.png");
+    background-size: cover;
+    background-position: center;
+}
+body{
+    background: #cccccc;
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+*{
+    font-size: 16px;
+    font-family: 'Arial';
+}
+
+ul.nav{
+    padding: 20px;
+    background-color: #ff9ca4;
+}
+ul.nav li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.content{
+    display: flex;
+}
+.content main{
+    width: 70%;
+}
+.content aside{
+    width: 30%;
+    background-color: #ff9ca4;
+    padding: 20px;
+}
+
+.skills{
+    display: flex;
+    padding: 0;
+}
+.skills li{
+    display: inline-block;
+    width: 25%;
+    padding: 0% 10%;
+}
+
+.courses{
+    display: flex;
+    padding: 0;
+}
+.courses li{
+    display: inline-block;
+    width: 25%;
+    padding: 0 10%;
+}
